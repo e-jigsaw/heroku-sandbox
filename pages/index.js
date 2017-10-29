@@ -1,1 +1,1 @@
-export default () => <div>Fuck Yeah Heroku</div>
+export default () => <div>Fuck Yeah Heroku v2</div>
