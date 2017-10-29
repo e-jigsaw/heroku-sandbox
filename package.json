@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "next",
     "postinstall": "next build",
-    "start": "next start",
+    "start": "next start -p $PORT",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
