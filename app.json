@@ -1,0 +1,19 @@
+{
+  "name": "heroku-sandbox",
+  "description": "heroku sandbox",
+  "scripts": {
+  },
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
