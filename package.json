@@ -1,20 +1,19 @@
 {
+  "private": true,
   "name": "heroku-sandbox",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "heroku sandbox",
+  "engines": {
+    "node": "8.x"
+  },
   "scripts": {
+    "dev": "next",
+    "postinstall": "next build",
+    "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/e-jigsaw/heroku-sandbox.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/e-jigsaw/heroku-sandbox/issues"
-  },
-  "homepage": "https://github.com/e-jigsaw/heroku-sandbox#readme"
+  "dependencies": {
+    "next": "^4.1.4",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
 }
